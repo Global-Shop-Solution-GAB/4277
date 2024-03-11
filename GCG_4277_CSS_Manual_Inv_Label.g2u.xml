@@ -1,0 +1,2286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SearchOptions>EntireScope FindTextAtCursor FindSelectedText CycledSearch</SearchOptions>
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>1562</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>4</Height>
+      </Size>
+      <X>0</X>
+      <Y>1562</Y>
+      <Width>24</Width>
+      <Height>4</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>1562</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.SS_Form1..create</string>
+        <string>Gui.SS_Form1..caption("Manual Inventory Label")</string>
+        <string>Gui.SS_Form1..size(14190,8835)</string>
+        <string>Gui.SS_Form1..minx(0)</string>
+        <string>Gui.SS_Form1..miny(0)</string>
+        <string>Gui.SS_Form1..position(0,0)</string>
+        <string>Gui.SS_Form1..event(UnLoad,ss_form1_unload)</string>
+        <string>Gui.SS_Form1..alwaysontop(False)</string>
+        <string>Gui.SS_Form1..fontname("Arial")</string>
+        <string>Gui.SS_Form1..fontsize(8)</string>
+        <string>Gui.SS_Form1..forecolor(0)</string>
+        <string>Gui.SS_Form1..BackColor(-2147483633)</string>
+        <string>Gui.SS_Form1..controlbox(True)</string>
+        <string>Gui.SS_Form1..maxbutton(False)</string>
+        <string>Gui.SS_Form1..minbutton(False)</string>
+        <string>Gui.SS_Form1..mousepointer(0)</string>
+        <string>Gui.SS_Form1..moveable(True)</string>
+        <string>Gui.SS_Form1..sizeable(False)</string>
+        <string>Gui.SS_Form1..ShowInTaskBar(True)</string>
+        <string>Gui.SS_Form1..titlebar(True)</string>
+        <string>Gui.SS_Form1.frame1.create(frame)</string>
+        <string>Gui.SS_Form1.frame1.caption("")</string>
+        <string>Gui.SS_Form1.frame1.size(13545,1140)</string>
+        <string>Gui.SS_Form1.frame1.position(200,110)</string>
+        <string>Gui.SS_Form1.frame1.visible(True)</string>
+        <string>Gui.SS_Form1.frame1.fontname("Arial")</string>
+        <string>Gui.SS_Form1.frame1.fontsize(8)</string>
+        <string>Gui.SS_Form1.txtPart.create(textbox,"",True,5775,495,0,3055,500,True,0,Arial,14,16777215,1)</string>
+        <string>Gui.SS_Form1.txtPart.parent("frame1")</string>
+        <string>Gui.SS_Form1.txtPart.event(KeyPressEnter,txtpart_keypressenter)</string>
+        <string>Gui.SS_Form1.txtPart.maxLength(20)</string>
+        <string>Gui.SS_Form1.txtPart.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtPart.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtPart.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtPart.tabindex(3)</string>
+        <string>Gui.SS_Form1.lblLoc.create(label,"Loc",True,270,200,1,9060,290,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lblLoc.parent("frame1")</string>
+        <string>Gui.SS_Form1.lblLoc.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lblLoc.controlgroup(0)</string>
+        <string>Gui.SS_Form1.txtLoc.create(textbox,"",True,675,495,0,9050,500,True,0,Arial,14,16777215,1)</string>
+        <string>Gui.SS_Form1.txtLoc.parent("frame1")</string>
+        <string>Gui.SS_Form1.txtLoc.maxLength(2)</string>
+        <string>Gui.SS_Form1.txtLoc.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtLoc.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtLoc.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtLoc.tabindex(4)</string>
+        <string>Gui.SS_Form1.txtJS.create(textbox,"",True,1650,495,0,180,500,True,0,Arial,14,8454143,1)</string>
+        <string>Gui.SS_Form1.txtJS.parent("frame1")</string>
+        <string>Gui.SS_Form1.txtJS.event(KeyPressEnter,txtjs_keypressenter)</string>
+        <string>Gui.SS_Form1.txtJS.maxLength(15)</string>
+        <string>Gui.SS_Form1.txtJS.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtJS.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtJS.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtJS.tabindex(1)</string>
+        <string>Gui.SS_Form1.txtSuffix.create(textbox,"",True,945,495,0,1875,500,True,0,Arial,14,-2147483643,1)</string>
+        <string>Gui.SS_Form1.txtSuffix.parent("frame1")</string>
+        <string>Gui.SS_Form1.txtSuffix.maxLength(3)</string>
+        <string>Gui.SS_Form1.txtSuffix.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtSuffix.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtSuffix.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtSuffix.tabindex(2)</string>
+        <string>Gui.SS_Form1.lbl7.create(label,"Part Number",True,1935,255,1,3115,290,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lbl7.parent("frame1")</string>
+        <string>Gui.SS_Form1.lbl7.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lbl7.controlgroup(0)</string>
+        <string>Gui.SS_Form1.lbl8.create(label,"Job",True,600,255,1,300,300,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lbl8.parent("frame1")</string>
+        <string>Gui.SS_Form1.lbl8.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lbl8.controlgroup(0)</string>
+        <string>Gui.SS_Form1.lbl9.create(label,"Suffix",True,600,255,1,1955,320,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lbl9.parent("frame1")</string>
+        <string>Gui.SS_Form1.lbl9.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lbl9.controlgroup(0)</string>
+        <string>Gui.SS_Form1.txtCustomer.create(textbox,"",True,1860,495,0,11100,500,True,0,Arial,14,-2147483643,1)</string>
+        <string>Gui.SS_Form1.txtCustomer.parent("frame1")</string>
+        <string>Gui.SS_Form1.txtCustomer.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtCustomer.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtCustomer.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtCustomer.tabindex(6)</string>
+        <string>Gui.SS_Form1.lblPL.create(label,"PL",True,360,255,1,9990,290,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lblPL.parent("frame1")</string>
+        <string>Gui.SS_Form1.lblPL.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lblPL.controlgroup(0)</string>
+        <string>Gui.SS_Form1.lblCustomer.create(label,"Customer",True,870,255,1,11100,290,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lblCustomer.parent("frame1")</string>
+        <string>Gui.SS_Form1.lblCustomer.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lblCustomer.controlgroup(0)</string>
+        <string>Gui.SS_Form1.frame2.create(frame)</string>
+        <string>Gui.SS_Form1.frame2.caption("")</string>
+        <string>Gui.SS_Form1.frame2.size(13545,1110)</string>
+        <string>Gui.SS_Form1.frame2.position(180,1290)</string>
+        <string>Gui.SS_Form1.frame2.visible(True)</string>
+        <string>Gui.SS_Form1.frame2.fontname("Arial")</string>
+        <string>Gui.SS_Form1.frame2.fontsize(8)</string>
+        <string>Gui.SS_Form1.txtLot.create(textbox,"",True,2880,420,0,190,490,True,0,Arial,12,16777088,1)</string>
+        <string>Gui.SS_Form1.txtLot.parent("frame2")</string>
+        <string>Gui.SS_Form1.txtLot.tooltip("Type the lot and press Enter or Scan the lot")</string>
+        <string>Gui.SS_Form1.txtLot.event(KeyPressEnter,txtlot_keypressenter)</string>
+        <string>Gui.SS_Form1.txtLot.maxLength(15)</string>
+        <string>Gui.SS_Form1.txtLot.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtLot.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtLot.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtLot.tabindex(7)</string>
+        <string>Gui.SS_Form1.txtheat.create(textbox,"",True,3615,450,0,4175,490,True,0,Arial,12,-2147483643,1)</string>
+        <string>Gui.SS_Form1.txtheat.parent("frame2")</string>
+        <string>Gui.SS_Form1.txtheat.event(KeyPressEnter,txtheat_keypressenter)</string>
+        <string>Gui.SS_Form1.txtheat.maxLength(20)</string>
+        <string>Gui.SS_Form1.txtheat.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtheat.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtheat.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtheat.tabindex(9)</string>
+        <string>Gui.SS_Form1.lblHeat.create(label,"Heat",True,525,255,1,4290,290,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lblHeat.parent("frame2")</string>
+        <string>Gui.SS_Form1.lblHeat.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lblHeat.controlgroup(0)</string>
+        <string>Gui.SS_Form1.txtserial.create(textbox,"",True,4410,450,0,7880,490,True,0,Arial,12,-2147483643,1)</string>
+        <string>Gui.SS_Form1.txtserial.parent("frame2")</string>
+        <string>Gui.SS_Form1.txtserial.event(KeyPressEnter,txtserial_keypressenter)</string>
+        <string>Gui.SS_Form1.txtserial.maxLength(30)</string>
+        <string>Gui.SS_Form1.txtserial.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtserial.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtserial.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtserial.tabindex(10)</string>
+        <string>Gui.SS_Form1.lblSerial.create(label,"Serial",True,1275,255,1,7965,300,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lblSerial.parent("frame2")</string>
+        <string>Gui.SS_Form1.lblSerial.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lblSerial.controlgroup(0)</string>
+        <string>Gui.SS_Form1.lblLot.create(label,"Lot",True,420,255,1,220,245,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lblLot.parent("frame2")</string>
+        <string>Gui.SS_Form1.lblLot.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lblLot.controlgroup(0)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.create(button)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.caption("Print WO")</string>
+        <string>Gui.SS_Form1.cmdPrintWO.visible(True)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.size(1000,360)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.zorder(0)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.position(12360,490)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.enabled(True)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.parent("frame2")</string>
+        <string>Gui.SS_Form1.cmdPrintWO.fontname("Arial")</string>
+        <string>Gui.SS_Form1.cmdPrintWO.fontsize(8)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.event(Click,cmdprintwo_click)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.defaultvalue("")</string>
+        <string>Gui.SS_Form1.cmdPrintWO.controlgroup(0)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.tabstop(True)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.tabindex(11)</string>
+        <string>Gui.SS_Form1.cmdNextLot.create(button)</string>
+        <string>Gui.SS_Form1.cmdNextLot.caption("Next Lot")</string>
+        <string>Gui.SS_Form1.cmdNextLot.visible(True)</string>
+        <string>Gui.SS_Form1.cmdNextLot.size(855,375)</string>
+        <string>Gui.SS_Form1.cmdNextLot.zorder(0)</string>
+        <string>Gui.SS_Form1.cmdNextLot.position(3150,515)</string>
+        <string>Gui.SS_Form1.cmdNextLot.enabled(True)</string>
+        <string>Gui.SS_Form1.cmdNextLot.parent("frame2")</string>
+        <string>Gui.SS_Form1.cmdNextLot.fontname("Arial")</string>
+        <string>Gui.SS_Form1.cmdNextLot.fontsize(8)</string>
+        <string>Gui.SS_Form1.cmdNextLot.event(Click,cmdnextlot_click)</string>
+        <string>Gui.SS_Form1.cmdNextLot.defaultvalue("")</string>
+        <string>Gui.SS_Form1.cmdNextLot.controlgroup(0)</string>
+        <string>Gui.SS_Form1.cmdNextLot.tabstop(True)</string>
+        <string>Gui.SS_Form1.cmdNextLot.tabindex(8)</string>
+        <string>Gui.SS_Form1.frame3.create(frame)</string>
+        <string>Gui.SS_Form1.frame3.caption("")</string>
+        <string>Gui.SS_Form1.frame3.size(13560,975)</string>
+        <string>Gui.SS_Form1.frame3.position(200,2455)</string>
+        <string>Gui.SS_Form1.frame3.visible(True)</string>
+        <string>Gui.SS_Form1.frame3.fontname("Arial")</string>
+        <string>Gui.SS_Form1.frame3.fontsize(8)</string>
+        <string>Gui.SS_Form1.lbl_txtQty.create(label,"Total Quantity",True,1200,200,1,290,225,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lbl_txtQty.parent("frame3")</string>
+        <string>Gui.SS_Form1.lbl_txtQty.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lbl_txtQty.controlgroup(0)</string>
+        <string>Gui.SS_Form1.txtQty.create(textbox,"",True,1530,345,0,300,495,True,1,Arial,10,16777088,1)</string>
+        <string>Gui.SS_Form1.txtQty.parent("frame3")</string>
+        <string>Gui.SS_Form1.txtQty.numericonly(1)</string>
+        <string>Gui.SS_Form1.txtQty.event(KeyPressEnter,txtqty_keypressenter)</string>
+        <string>Gui.SS_Form1.txtQty.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtQty.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtQty.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtQty.tabindex(12)</string>
+        <string>Gui.SS_Form1.lbl_txtQtyL.create(label,"Label Quantity",True,1080,200,1,2300,200,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.SS_Form1.lbl_txtQtyL.parent("frame3")</string>
+        <string>Gui.SS_Form1.lbl_txtQtyL.defaultvalue("")</string>
+        <string>Gui.SS_Form1.lbl_txtQtyL.controlgroup(0)</string>
+        <string>Gui.SS_Form1.txtQtyL.create(textbox,"",True,1230,345,0,2130,495,True,1,Arial,10,16777088,1)</string>
+        <string>Gui.SS_Form1.txtQtyL.parent("frame3")</string>
+        <string>Gui.SS_Form1.txtQtyL.numericonly(1)</string>
+        <string>Gui.SS_Form1.txtQtyL.event(KeyPressEnter,txtqtyl_keypressenter)</string>
+        <string>Gui.SS_Form1.txtQtyL.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtQtyL.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtQtyL.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtQtyL.tabindex(13)</string>
+        <string>Gui.SS_Form1.cmdAdd.create(button)</string>
+        <string>Gui.SS_Form1.cmdAdd.caption("Add")</string>
+        <string>Gui.SS_Form1.cmdAdd.visible(True)</string>
+        <string>Gui.SS_Form1.cmdAdd.size(1000,360)</string>
+        <string>Gui.SS_Form1.cmdAdd.zorder(0)</string>
+        <string>Gui.SS_Form1.cmdAdd.position(3600,400)</string>
+        <string>Gui.SS_Form1.cmdAdd.enabled(True)</string>
+        <string>Gui.SS_Form1.cmdAdd.parent("frame3")</string>
+        <string>Gui.SS_Form1.cmdAdd.fontname("Arial")</string>
+        <string>Gui.SS_Form1.cmdAdd.fontsize(8)</string>
+        <string>Gui.SS_Form1.cmdAdd.event(Click,cmdadd_click)</string>
+        <string>Gui.SS_Form1.cmdAdd.defaultvalue("")</string>
+        <string>Gui.SS_Form1.cmdAdd.controlgroup(0)</string>
+        <string>Gui.SS_Form1.cmdAdd.tabstop(True)</string>
+        <string>Gui.SS_Form1.cmdAdd.tabindex(14)</string>
+        <string>Gui.SS_Form1.cmdPrint.create(button)</string>
+        <string>Gui.SS_Form1.cmdPrint.caption("Print")</string>
+        <string>Gui.SS_Form1.cmdPrint.visible(True)</string>
+        <string>Gui.SS_Form1.cmdPrint.size(1000,360)</string>
+        <string>Gui.SS_Form1.cmdPrint.zorder(0)</string>
+        <string>Gui.SS_Form1.cmdPrint.position(5000,400)</string>
+        <string>Gui.SS_Form1.cmdPrint.enabled(True)</string>
+        <string>Gui.SS_Form1.cmdPrint.parent("frame3")</string>
+        <string>Gui.SS_Form1.cmdPrint.fontname("Arial")</string>
+        <string>Gui.SS_Form1.cmdPrint.fontsize(8)</string>
+        <string>Gui.SS_Form1.cmdPrint.event(Click,cmdprint_click)</string>
+        <string>Gui.SS_Form1.cmdPrint.defaultvalue("")</string>
+        <string>Gui.SS_Form1.cmdPrint.controlgroup(0)</string>
+        <string>Gui.SS_Form1.cmdPrint.tabstop(True)</string>
+        <string>Gui.SS_Form1.cmdPrint.tabindex(15)</string>
+        <string>Gui.SS_Form1.cmdClear.create(button)</string>
+        <string>Gui.SS_Form1.cmdClear.caption("Clear")</string>
+        <string>Gui.SS_Form1.cmdClear.visible(True)</string>
+        <string>Gui.SS_Form1.cmdClear.size(855,375)</string>
+        <string>Gui.SS_Form1.cmdClear.zorder(0)</string>
+        <string>Gui.SS_Form1.cmdClear.position(6300,400)</string>
+        <string>Gui.SS_Form1.cmdClear.enabled(True)</string>
+        <string>Gui.SS_Form1.cmdClear.parent("frame3")</string>
+        <string>Gui.SS_Form1.cmdClear.fontname("Arial")</string>
+        <string>Gui.SS_Form1.cmdClear.fontsize(8)</string>
+        <string>Gui.SS_Form1.cmdClear.event(Click,cmdclear_click)</string>
+        <string>Gui.SS_Form1.cmdClear.defaultvalue("")</string>
+        <string>Gui.SS_Form1.cmdClear.controlgroup(0)</string>
+        <string>Gui.SS_Form1.cmdClear.tabstop(True)</string>
+        <string>Gui.SS_Form1.cmdClear.tabindex(16)</string>
+        <string>Gui.SS_Form1.gsfgLabel.create(gsflexgrid)</string>
+        <string>Gui.SS_Form1.gsfgLabel.FixedRows(0)</string>
+        <string>Gui.SS_Form1.gsfgLabel.FixedCols(0)</string>
+        <string>Gui.SS_Form1.gsfgLabel.visible(True)</string>
+        <string>Gui.SS_Form1.gsfgLabel.size(13545,4350)</string>
+        <string>Gui.SS_Form1.gsfgLabel.zorder(0)</string>
+        <string>Gui.SS_Form1.gsfgLabel.position(180,3585)</string>
+        <string>Gui.SS_Form1.gsfgLabel.enabled(True)</string>
+        <string>Gui.SS_Form1.gsfgLabel.event(PostTextMatrix,gsfglabel_posttextmatrix)</string>
+        <string>Gui.SS_Form1.gsfgLabel.event(CommandClick,gsfglabel_commandclick)</string>
+        <string>Gui.SS_Form1.txtPL.create(textbox,"",True,960,495,0,10115,590,True,0,Arial,14,-2147483643,1)</string>
+        <string>Gui.SS_Form1.txtPL.defaultvalue("")</string>
+        <string>Gui.SS_Form1.txtPL.controlgroup(1)</string>
+        <string>Gui.SS_Form1.txtPL.tabstop(True)</string>
+        <string>Gui.SS_Form1.txtPL.tabindex(5)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Variable.Global.bOpChk.Declare(Boolean,False)</string>
+        <string>Variable.UDT.uLabel.Define("ID",Long)</string>
+        <string>Variable.UDT.uLabel.Define("Group",Long)</string>
+        <string>Variable.UDT.uLabel.Define("Part",String)</string>
+        <string>Variable.UDT.uLabel.Define("Loc",String)</string>
+        <string>Variable.UDT.uLabel.Define("Lot",String)</string>
+        <string>Variable.UDT.uLabel.Define("Qty",Float)</string>
+        <string>Variable.UDT.uLabel.Define("QtyL",Float)</string>
+        <string>Variable.UDT.uLabel.Define("Heat",String)</string>
+        <string>Variable.UDT.uLabel.Define("Serial",String)</string>
+        <string>Variable.UDT.uLabel.Define("Suffix",String)</string>
+        <string>Variable.UDT.uLabel.Define("Job",String)</string>
+        <string>Variable.uGlobal.uLabel.Declare("uLabel")</string>
+        <string>Variable.Global.iID.Declare(Long,0)</string>
+        <string>Variable.Global.iGroup.Declare(Long,0)</string>
+        <string>Variable.Global.bLot.Declare(Boolean,False)</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>'if called from GUI populate hook</string>
+        <string>F.Intrinsic.Control.If(V.Caller.Hook,=,"15710")</string>
+        <string>	Variable.passed.000020.set("Inv Label")</string>
+        <string>	F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'if called from issue material non-commited screen</string>
+        <string>F.Intrinsic.Control.If(V.Caller.Hook,=,"28875")</string>
+        <string>	Variable.passed.000260.set("Inv Label")</string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'if called from issue material non-commited screen</string>
+        <string>F.Intrinsic.Control.If(V.Caller.Hook,=,"32910")</string>
+        <string>	Variable.passed.000217.set("Inv Label")</string>
+        <string>	F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.intrinsic.Control.EndIf</string>
+        <string />
+        <string>V.Local.sPUser.Declare(String)</string>
+        <string>V.Local.sPPass.Declare(String)</string>
+        <string>V.Local.sDNS.Declare(String)</string>
+        <string>V.Local.sPUser.Set("Master")</string>
+        <string>V.Local.sPPass.Set("wingtip")</string>
+        <string>V.global.srptLoc.Declare(String)</string>
+        <string />
+        <string>F.ODBC.Connection!con.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)</string>
+        <string />
+        <string>'Remove _ if it is not within your DSNs.</string>
+        <string>'F.Intrinsic.String.Concat("Global_",V.Caller.CompanyCode,V.Local.sDNS)</string>
+        <string>'F.ODBC.Connection!con.OpenConnection(V.Local.sDNS,V.Local.sPUser,V.Local.sPPass)</string>
+        <string>'''''F.ODBC.Connection!con.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)</string>
+        <string>F.Intrinsic.Control.CallSub(Gridtitle)</string>
+        <string>F.Intrinsic.Control.CallSub(Gridstyle)</string>
+        <string>V.uGlobal.uLabel.Redim(-1,-1)</string>
+        <string>Gui.SS_Form1.gsfgLabel.SetProperty("Enter",1)</string>
+        <string />
+        <string>'if called from issue non-committed material screen script 1 hook</string>
+        <string>F.Intrinsic.Control.If(V.Caller.Hook,=,"28888")</string>
+        <string />
+        <string>	V.Local.sGSSPart.Declare(String)</string>
+        <string>	V.Local.sabsqty.Declare(String)</string>
+        <string>	</string>
+        <string>	F.Intrinsic.String.GSSPartString(V.Passed.000112,V.Passed.000113,V.Local.sGSSPart)</string>
+        <string>	Gui.SS_Form1.txtPart.Text(V.Local.sGSSPart)</string>
+        <string />
+        <string>	Gui.SS_Form1.txtLoc.Text(V.Passed.000115)</string>
+        <string>	F.Intrinsic.Math.Abs(V.Passed.000120,V.Local.sabsqty)</string>
+        <string>	Gui.SS_Form1.txtQty.Text(V.Local.sabsqty)</string>
+        <string>	Gui.SS_Form1.txtQtyL.Text("1")</string>
+        <string>F.Intrinsic.Control.Endif</string>
+        <string />
+        <string>'F.Intrinsic.Control.If(V.Caller.Switches,=,"R")</string>
+        <string>'	Gui.SS_Form1.cmdNextLot.Enabled(false)</string>
+        <string>'F.Intrinsic.Control.Else</string>
+        <string>Gui.SS_Form1.cmdNextLot.Enabled(true)</string>
+        <string>'F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Gui.SS_Form1.txtCustomer.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtLoc.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtPart.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtPL.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtSuffix.Enabled(false)</string>
+        <string>F.Intrinsic.Control.CallSub(Subdisabled)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmdPrint.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmdClear.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmdAdd.Enabled(false)</string>
+        <string>Gui.SS_Form1.gsfgLabel.Enabled(false)</string>
+        <string>Gui.SS_Form1..Show</string>
+        <string>Gui.SS_Form1.txtJS.SetFocus</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.ss_form1_unload.Start</string>
+        <string>F.ODBC.Connection!con.Close</string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>Program.Sub.ss_form1_unload.End</string>
+        <string />
+        <string>Program.Sub.GridTitle.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GridTitle_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iCol.Declare(Long)</string>
+        <string />
+        <string>Gui.SS_Form1.gsfgLabel.Rows(2)</string>
+        <string>Gui.SS_Form1.gsfgLabel.FixedRows(1)</string>
+        <string>Gui.SS_Form1.gsfgLabel.Cols(12)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(0,0,"")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(0,0)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(1,0,"")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(1,0)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(2,0,"Part")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(2,2500)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(3,0,"Loc")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(3,500)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(4,0,"Job")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(4,1000)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(5,0,"Sfx")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(5,500)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(6,0,"Lot")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(6,1500)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(7,0,"Heat")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(7,1600)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(8,0,"Serial")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(8,2000)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(9,0,"Part Qty")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(9,0)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(10,0,"Qty on Label")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(10,1600)</string>
+        <string>Gui.SS_Form1.gsfgLabel.TextMatrix(11,0,"")</string>
+        <string>Gui.SS_Form1.gsfgLabel.ColWidth(11,800)</string>
+        <string />
+        <string>F.Intrinsic.Control.DoUntil(V.Local.iCol,=,11)</string>
+        <string>	Gui.SS_Form1.gsfgLabel.BuildStyle(1,V.Local.iCol,"type","locked",True)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.iCol,=,7)</string>
+        <string>		Gui.SS_Form1.gsfgLabel.BuildStyle(1,V.Local.iCol,"format","alignment",6)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.Control.If(V.Local.iCol,=,9)</string>
+        <string>			Gui.SS_Form1.gsfgLabel.BuildStyle(1,V.Local.iCol,"format","alignment",6)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.SS_Form1.gsfgLabel.BuildStyle(1,V.Local.iCol,"format","alignment",2)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	Gui.SS_Form1.gsfgLabel.BuildStyle(1,V.Local.iCol,"fontstyle","bold",True)</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.iCol,1,V.Local.iCol)</string>
+        <string>F.Intrinsic.Control.Loop</string>
+        <string>V.Local.iCol.Set(0)</string>
+        <string>F.Intrinsic.Control.DoUntil(V.Local.iCol,=,11)</string>
+        <string>	Gui.SS_Form1.gsfgLabel.BuildStyle(1,V.Local.iCol,"type","locked",True)</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.iCol,1,V.Local.iCol)</string>
+        <string>F.Intrinsic.Control.Loop</string>
+        <string>Gui.SS_Form1.gsfgLabel.ApplyStyle(0,1)</string>
+        <string>Gui.SS_Form1.gsfgLabel.ApplyStyle(1,1)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GridTitle_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Program.Sub.GridTitle.End</string>
+        <string />
+        <string>Program.Sub.cmd_txtpart_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_txtpart_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.UI.SetBrowserHotTypeAhead(True)</string>
+        <string>F.Intrinsic.UI.Browser(105,"",V.Local.sRet)</string>
+        <string>F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>	Gui.SS_Form1.txtPart.Text(V.Local.sRet(0).Trim)</string>
+        <string>	Gui.SS_Form1.txtLoc.Text(V.Local.sRet(1).Trim)</string>
+        <string>	Gui.SS_Form1.txtJS.SelectAll</string>
+        <string>	Gui.SS_Form1.txtJS.SetFocus</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_txtpart_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmd_txtpart_click.End</string>
+        <string />
+        <string>Program.Sub.cmd_txtlot_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_txtlot_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.sTitles.Declare(String)</string>
+        <string>V.Local.sWidths.Declare(String)</string>
+        <string />
+        <string>V.Local.sSql.Set("SELECT LOT, PART, LOCATION, JOB, SUFFIX, HEAT, SERIAL_NUMBER, PURCHASE_ORDER, PO_LINE, CODE_TRANSACTION FROM V_ITEM_HISTORY WHERE DATE_HISTORY&gt;'2015-12-01' GROUP BY LOT, PART, LOCATION, JOB, SUFFIX, HEAT, SERIAL_NUMBER, PURCHASE_ORDER, PO_LINE, CODE_TRANSACTION HAVING CODE_TRANSACTION IN ('J52','R11','P11')")</string>
+        <string>V.Local.sTitles.Set("Lot*!*Part*!*Loc*!*Job*!*Suffix*!*Heat*!*Serial*!*PO*!*Line*!*TC")</string>
+        <string>V.Local.sWidths.Set("1200*!*2400*!*400*!*1200*!*500*!*1000*!*1000*!*1000*!*500*!*500")</string>
+        <string />
+        <string>F.Intrinsic.String.Split(V.Local.sTitles,"*!*",V.Local.sTitles)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sWidths,"*!*",V.Local.sWidths)</string>
+        <string>F.Intrinsic.UI.SetBrowserHotTypeAhead(True)</string>
+        <string>F.Intrinsic.UI.Browser("Select Item Master Record","con",V.Local.sSql,V.Local.sTitles,V.Local.sWidths,13000,8000,V.Local.sRet)</string>
+        <string>F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>	Gui.SS_Form1.txtLot.Text(V.Local.sRet(0).Trim)</string>
+        <string>	Gui.SS_Form1.txtPart.Text(V.Local.sRet(1).Trim)</string>
+        <string>	Gui.SS_Form1.txtLoc.Text(V.Local.sRet(2).Trim)</string>
+        <string>	Gui.SS_Form1.txtJS.Text(V.Local.sRet(3).Trim)</string>
+        <string>	Gui.SS_Form1.txtSuffix.Text(V.Local.sRet(4).Trim)</string>
+        <string>	Gui.SS_Form1.txtHeat.Text(V.Local.sRet(5).Trim)</string>
+        <string>	Gui.SS_Form1.txtSerial.Text(V.Local.sRet(6).Trim)</string>
+        <string>'	Gui.SS_Form1.txtQty.Text(V.Local.sRet(6).Trim)</string>
+        <string>'	Gui.SS_Form1.txtQtyL.text("1")</string>
+        <string />
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_txtlot_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmd_txtlot_click.End</string>
+        <string />
+        <string>Program.Sub.cmdadd_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdadd_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iCnt.Declare(Long)</string>
+        <string>V.Local.iUB.Declare(Long)</string>
+        <string>V.Local.fLblQty.Declare(Float)</string>
+        <string />
+        <string>Gui.SS_Form1.cmdAdd.Enabled(false)</string>
+        <string>V.Local.iCnt.Set(1)</string>
+        <string>Gui.SS_Form1.gsfgLabel.Commit</string>
+        <string />
+        <string>F.Intrinsic.Control.CallSub(Opchk)</string>
+        <string>F.Intrinsic.Control.If(V.Global.bOpChk,=,True)</string>
+        <string>	Gui.SS_Form1.cmdAdd.Enabled(true)</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>Gui.SS_Form1.gsfgLabel.Visible(false)</string>
+        <string>Gui.SS_Form1..Enabled(False)</string>
+        <string>F.Intrinsic.Math.Add(V.Global.iGroup,1,V.Global.iGroup)</string>
+        <string>F.Intrinsic.Control.DoUntil(V.Local.iCnt,&gt;,V.Screen.SS_Form1!txtQtyL.Text)</string>
+        <string>	F.Intrinsic.Control.If(V.uGlobal.uLabel.UBound,=,-1)</string>
+        <string>		V.uGlobal.uLabel.Redim(0,0)</string>
+        <string>		V.Local.iUB.Set(0)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		V.Local.iUB.Set(V.uGlobal.uLabel.UBound)</string>
+        <string>		F.Intrinsic.Math.Add(V.Local.iUB,1,V.Local.iUB)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	V.uGlobal.uLabel.RedimPreserve(0,V.Local.iUB)</string>
+        <string>	F.Intrinsic.Math.Div(V.Screen.SS_Form1!txtQty.Text,V.Screen.SS_Form1!txtQtyL.Text,V.Local.fLblQty)</string>
+        <string>	F.Intrinsic.Math.Round(V.Local.fLblQty,4,V.Local.fLblQty)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!ID.Set(V.Global.iID)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Group.Set(V.Global.iGroup)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Part.Set(V.Screen.SS_Form1!txtPart.Text)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Loc.Set(V.Screen.SS_Form1!txtLoc.Text)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Job.Set(V.Screen.SS_Form1!txtJS.Text)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Suffix.Set(V.Screen.SS_Form1!txtSuffix.Text)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Lot.Set(V.Screen.SS_Form1!txtLot.Text)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Heat.Set(V.Screen.SS_Form1!txtHeat.Text)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Serial.Set(V.Screen.SS_Form1!txtSerial.Text)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!Qty.Set(V.Screen.SS_Form1!txtQty.Text)</string>
+        <string>	V.uGlobal.uLabel(V.Local.iUB)!QtyL.Set(V.Local.fLblQty)</string>
+        <string>	F.Intrinsic.Math.Add(V.Global.iID,1,V.Global.iID)</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.iCnt,1,V.Local.iCnt)</string>
+        <string>F.Intrinsic.Control.Loop</string>
+        <string>Gui.SS_Form1.gsfgLabel.LoadFromUDT("uGlobal.uLabel","ID*!*Group*!*Part*!*Loc*!*Job*!*Suffix*!*Lot*!*Heat*!*Serial*!*Qty*!*QtyL",2)</string>
+        <string />
+        <string>F.Intrinsic.Control.CallSub(Subdisabled)</string>
+        <string>Gui.SS_Form1.gsfgLabel.Visible(true)</string>
+        <string>Gui.SS_Form1.gsfgLabel.Enabled(true)</string>
+        <string>Gui.SS_Form1.cmdPrint.Enabled(true)</string>
+        <string>Gui.SS_Form1.cmdNextLot.Enabled(false)</string>
+        <string>Gui.SS_Form1..Enabled(True)</string>
+        <string>Gui.SS_Form1.cmdPrint.SetFocus</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdadd_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Program.Sub.cmdadd_click.End</string>
+        <string />
+        <string>Program.Sub.cmdprint_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdprint_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Form1.cmdPrint.Enabled(false)</string>
+        <string>F.Intrinsic.Control.If(V.Caller.Switches,&lt;&gt;,"R")</string>
+        <string>	F.Intrinsic.Control.CallSub(Cmdprintwo_click)</string>
+        <string />
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.If(V.uGlobal.uLabel.UBound,&gt;,-1)</string>
+        <string>	'F.Intrinsic.String.Concat("DELETE CPP_Manual_Inv_Label where Terminal = '",V.Caller.Terminal,"'",V.Local.sSql)</string>
+        <string>	F.Intrinsic.String.Build("DELETE from X_MANUAL_INV_LABEL WHERE TERMINAL='{0}'",V.Caller.Terminal,V.Local.sSql)</string>
+        <string />
+        <string>	F.ODBC.Connection!con.Execute(V.Local.sSql)</string>
+        <string>	F.Intrinsic.String.Build("SELECT * FROM X_MANUAL_INV_LABEL WHERE TERMINAL='{0}'",V.Caller.Terminal,V.Local.sSql)</string>
+        <string>	F.ODBC.Connection!con.OpenLocalRecordsetRW("rst",V.Local.sSql)</string>
+        <string>	F.Intrinsic.Control.For(V.Local.i,V.uGlobal.uLabel.LBound,V.uGlobal.uLabel.UBound,1)</string>
+        <string>		F.ODBC.con!rst.AddNew</string>
+        <string>		F.ODBC.con!rst.Set!Terminal(V.Caller.Terminal)</string>
+        <string>		F.ODBC.con!rst.Set!ID(V.uGlobal.uLabel(V.Local.i)!ID)</string>
+        <string>		F.ODBC.con!rst.Set!GID(V.uGlobal.uLabel(V.Local.i)!Group)</string>
+        <string>		F.ODBC.con!rst.Set!Part(V.uGlobal.uLabel(V.Local.i)!Part)</string>
+        <string>		F.Intrinsic.String.Concat("Select DESCRIPTION, UM_INVENTORY from V_INVENTORY_MSTR where PART = '",V.uGlobal.uLabel(V.Local.i)!Part,"' and  LOCATION =  '",V.uGlobal.uLabel(V.Local.i)!Loc,"'",V.Local.sSql)</string>
+        <string>		F.ODBC.Connection!con.OpenLocalRecordsetRO("rstDesc",V.Local.sSql)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rstDesc.EOF,=,True)</string>
+        <string>			F.ODBC.con!rst.Set!Description("")</string>
+        <string>			F.ODBC.con!rst.Set!UM("")</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.ODBC.con!rst.Set!Description(V.ODBC.con!rstDesc.FieldValTrim!DESCRIPTION)</string>
+        <string>			F.ODBC.con!rst.Set!UM(V.ODBC.con!rstDesc.FieldValTrim!UM_INVENTORY)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstDesc.Close</string>
+        <string>		F.ODBC.con!rst.Set!Location(V.uGlobal.uLabel(V.Local.i)!Loc)</string>
+        <string>		F.ODBC.con!rst.Set!Lot(V.uGlobal.uLabel(V.Local.i)!Lot)</string>
+        <string>		F.ODBC.con!rst.Set!Heat(V.uGlobal.uLabel(V.Local.i)!Heat)</string>
+        <string>		F.ODBC.con!rst.Set!Serial(V.uGlobal.uLabel(V.Local.i)!Serial)</string>
+        <string>		F.ODBC.con!rst.Set!Job(V.uGlobal.uLabel(V.Local.i)!Job)</string>
+        <string>		F.ODBC.con!rst.Set!Suffix(V.uGlobal.uLabel(V.Local.i)!Suffix)</string>
+        <string>		F.ODBC.con!rst.Set!Quantity(V.uGlobal.uLabel(V.Local.i)!Qty)</string>
+        <string>		F.ODBC.con!rst.Set!Quantity_Label(V.uGlobal.uLabel(V.Local.i)!QtyL)</string>
+        <string>		F.ODBC.con!rst.Set!GS_User(V.Caller.User)</string>
+        <string>		F.Intrinsic.Control.If(V.Caller.Switches,=,"R","OR",V.Caller.Hook,=,1)</string>
+        <string>			F.ODBC.con!rst.Set!RPT(1)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.ODBC.con!rst.Set!RPT(0)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rst.Update</string>
+        <string>	F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>	F.ODBC.con!rst.Close</string>
+        <string>	F.Intrinsic.Control.CallSub(Reprint)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdprint_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdprint_click.End</string>
+        <string />
+        <string>Program.Sub.cmd_txtJS_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_txtJS_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.sTitles.Declare(String)</string>
+        <string>V.Local.sWidths.Declare(String)</string>
+        <string>V.Local.sJob.Declare(String)</string>
+        <string>V.Local.sSuffix.Declare(String)</string>
+        <string>V.Local.sJS.Declare(String)</string>
+        <string />
+        <string>V.Local.sSql.Set("SELECT JOB, SUFFIX, PART, LOCATION, PRODUCT_LINE, CUSTOMER FROM V_JOB_HEADER UNION SELECT JOB, SUFFIX, PART, LOCATION, PRODUCT_LINE, CUSTOMER FROM V_JOB_HIST_MAST")</string>
+        <string>V.Local.sTitles.Set("Job*!*Suffix*!*Part*!*Loc*!*PL*!*Customer")</string>
+        <string>V.Local.sWidths.Set("1100*!*500*!*2500*!*400*!*400*!*1000")</string>
+        <string />
+        <string>F.Intrinsic.String.Split(V.Local.sTitles,"*!*",V.Local.sTitles)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sWidths,"*!*",V.Local.sWidths)</string>
+        <string>F.Intrinsic.UI.SetBrowserHotTypeAhead(True)</string>
+        <string>F.Intrinsic.UI.Browser("Select Work Order","con",V.Local.sSql,V.Local.sTitles,V.Local.sWidths,8000,8000,V.Local.sRet)</string>
+        <string>F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>	Gui.SS_Form1.txtPart.Text(V.Local.sRet(2).Trim)</string>
+        <string>	Gui.SS_Form1.txtLoc.Text(V.Local.sRet(3).Trim)</string>
+        <string>	V.Local.sJob.Set(V.Local.sRet(0).Trim)</string>
+        <string>	V.Local.sSuffix.Set(V.Local.sRet(1).Trim)</string>
+        <string />
+        <string>	Gui.SS_Form1.txtJS.Text(V.Local.sRet(0).Trim)</string>
+        <string>	Gui.SS_Form1.txtSuffix.Text(V.Local.sRet(1).Trim)</string>
+        <string>	Gui.SS_Form1.txtLot.Text(V.Local.sRet(3).Trim)</string>
+        <string>'	Gui.SS_Form1.txtHeat.Text(V.Local.sRet(4).Trim)</string>
+        <string>'	Gui.SS_Form1.txtSerial.Text(V.Local.sRet(5).Trim)</string>
+        <string>'	Gui.SS_Form1.txtQty.Text(V.Local.sRet(6).Trim)</string>
+        <string>'	Gui.SS_Form1.txtQtyL.text("1")</string>
+        <string />
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_txtJS_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: CSS_Manual_Inv_Label.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmd_txtJS_click.End</string>
+        <string />
+        <string>Program.Sub.GridStyle.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GridStyle_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.bChk.Declare(Boolean)</string>
+        <string>V.Local.iCol.Declare(Long)</string>
+        <string />
+        <string>V.Local.bChk.Set(False)</string>
+        <string>F.Intrinsic.Control.DoUntil(V.Local.iCol,=,11)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.iCol,&lt;=,9)</string>
+        <string>		V.Local.bChk.Set(True)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.Control.If(V.Local.iCol,=,7)</string>
+        <string>			V.Local.bChk.Set(True)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			V.Local.bChk.Set(False)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bChk,=,True)</string>
+        <string>		Gui.SS_Form1.gsfgLabel.BuildStyle(2,V.Local.iCol,"type","locked",True)</string>
+        <string>		Gui.SS_Form1.gsfgLabel.BuildStyle(2,V.Local.iCol,"fontstyle","bold",False)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.SS_Form1.gsfgLabel.BuildStyle(2,V.Local.iCol,"type","locked",False)</string>
+        <string>		Gui.SS_Form1.gsfgLabel.BuildStyle(2,V.Local.iCol,"fontstyle","bold",False)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.iCol,=,7)</string>
+        <string>			Gui.SS_Form1.gsfgLabel.BuildStyle(2,V.Local.iCol,"format","alignment",6)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.Control.If(V.Local.iCol,=,8)</string>
+        <string>				Gui.SS_Form1.gsfgLabel.BuildStyle(2,V.Local.iCol,"format","alignment",6)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				Gui.SS_Form1.gsfgLabel.BuildStyle(2,V.Local.iCol,"format","alignment",2)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.iCol,1,V.Local.iCol)</string>
+        <string>F.Intrinsic.Control.Loop</string>
+        <string>Gui.SS_Form1.gsfgLabel.BuildStyle(2,11,"Type","Command","Delete")</string>
+        <string>Gui.SS_Form1.gsfgLabel.BuildStyle(2,11,"format","alignment",4)</string>
+        <string>Gui.SS_Form1.gsfgLabel.SetProperty("enter",2)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GridStyle_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.GridStyle.End</string>
+        <string />
+        <string>Program.Sub.OpChk.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("OpChk_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>V.Global.bOpChk.Set(False)</string>
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!txtQty.Text,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Please enter quantity.","")</string>
+        <string>	Gui.SS_Form1.txtQty.SetFocus</string>
+        <string>	Gui.SS_Form1.txtQty.SelectAll</string>
+        <string>	V.Global.bOpChk.Set(True)</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!txtQty.Text,=,"0")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Please enter quantity.","")</string>
+        <string>	Gui.SS_Form1.txtQty.SetFocus</string>
+        <string>	Gui.SS_Form1.txtQty.SelectAll</string>
+        <string>	V.Global.bOpChk.Set(True)</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!txtQtyL.Text,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Please enter label quantity.","")</string>
+        <string>	Gui.SS_Form1.txtQtyL.SetFocus</string>
+        <string>	Gui.SS_Form1.txtQtyL.SelectAll</string>
+        <string>	V.Global.bOpChk.Set(True)</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!txtQtyL.Text,=,"0")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Please enter label quantity.","")</string>
+        <string>	Gui.SS_Form1.txtQtyL.SetFocus</string>
+        <string>	Gui.SS_Form1.txtQtyL.SelectAll</string>
+        <string>	V.Global.bOpChk.Set(True)</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!txtPart.Text,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Please enter a part.","")</string>
+        <string>	Gui.SS_Form1.txtPart.SetFocus</string>
+        <string>	Gui.SS_Form1.txtPart.SelectAll</string>
+        <string>	V.Global.bOpChk.Set(True)</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!txtLot.Text,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Please enter the Lot number","Warning")</string>
+        <string>	F.Intrinsic.Control.If(V.Caller.Switches,=,"R")</string>
+        <string>		Gui.SS_Form1.txtLot.SelectAll</string>
+        <string>		Gui.SS_Form1.txtLot.SetFocus</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.SS_Form1.cmdNextLot.SetFocus</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	V.Global.bOpChk.Set(True)</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("OpChk_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Program.Sub.OpChk.End</string>
+        <string />
+        <string>Program.Sub.gsfglabel_commandclick.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("gsfglabel_commandclick_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Gui.SS_Form1..Enabled(False)</string>
+        <string>V.Local.sRow.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Form1.gsfgLabel.Commit</string>
+        <string>Gui.SS_Form1.gsfgLabel.ReadRow(V.Args.Key,V.Local.sRow)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sRow,"*!*",V.Local.sRow)</string>
+        <string>F.Intrinsic.Variable.UDTMultiFlag(V.uGlobal.uLabel!ID,V.Local.sRow(0).Long)</string>
+        <string>F.Intrinsic.Variable.UDTDeleteFlagged(V.uGlobal.uLabel)</string>
+        <string>Gui.SS_Form1.gsfgLabel.LoadFromUDT("uGlobal.uLabel","ID*!*Group*!*Part*!*Loc*!*Job*!*Suffix*!*Lot*!*Heat*!*Serial*!*Qty*!*QtyL",2)</string>
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!gsfgLabel.Rows,&lt;=,1)</string>
+        <string>	F.Intrinsic.Control.CallSub(Gridtitle)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>Gui.SS_Form1..Enabled(True)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("gsfglabel_commandclick_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.gsfglabel_commandclick.End</string>
+        <string />
+        <string>Program.Sub.gsfglabel_posttextmatrix.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("gsfglabel_posttextmatrix_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Gui.SS_Form1..Enabled(False)</string>
+        <string>V.Local.sRow.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.sRetID.Declare(String)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.ia.Declare(Long)</string>
+        <string>V.Local.fTotal.Declare(Float)</string>
+        <string>V.Local.bChk.Declare(Boolean)</string>
+        <string>V.Local.iRemRow.Declare(Long)</string>
+        <string>V.Local.iCurrRow.Declare(Long)</string>
+        <string>V.Local.fRowQty.Declare(Float)</string>
+        <string>V.Local.fQtyL.Declare(Float)</string>
+        <string />
+        <string>'F.Intrinsic.Debug.InvokeDebugger</string>
+        <string />
+        <string />
+        <string>Gui.SS_Form1.gsfgLabel.Commit</string>
+        <string>Gui.SS_Form1.gsfgLabel.Visible(false)</string>
+        <string>V.Local.bChk.Set(False)</string>
+        <string>F.Intrinsic.Control.If(V.Args.Column.Long,=,10)</string>
+        <string>	Gui.SS_Form1.gsfgLabel.ReadRow(V.Args.Key,V.Local.sRow)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRow,"*!*",V.Local.sRow)</string>
+        <string>	F.Intrinsic.Math.IsNumeric(V.Local.sRow(10).Float,V.Local.bChk)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.bChk,=,True)</string>
+        <string>		F.Intrinsic.Variable.UDTSeek(V.uGlobal.uLabel!Group,V.Local.sRow(1),0,V.Local.sRet)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"")</string>
+        <string>			F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>			F.Intrinsic.Control.For(V.Local.i,V.Local.sRet.LBound,V.Local.sRet.UBound,1)</string>
+        <string>				F.Intrinsic.Control.If(V.uGlobal.uLabel(V.Local.sRet(V.Local.i).Long)!ID,=,V.Local.sRow(0).Long)</string>
+        <string>					Gui.SS_Form1.gsfgLabel.GetTextMatrix(10,V.Args.Key,V.Local.fRowQty)</string>
+        <string>					F.Intrinsic.Math.Add(V.Local.fTotal,V.Local.fRowQty,V.Local.fTotal)</string>
+        <string>					F.Intrinsic.Control.If(V.Local.fTotal,&gt;,V.uGlobal.uLabel(V.Local.sRet(V.Local.i).Long)!Qty)</string>
+        <string>						Gui.SS_Form1.gsfgLabel.LoadFromUDT("uGlobal.uLabel","ID*!*Group*!*Part*!*Loc*!*Job*!*Suffix*!*Lot*!*Heat*!*Serial*!*Qty*!*QtyL",2)</string>
+        <string>						F.Intrinsic.UI.Msgbox("Quantity on labels greater than part quantity.","")</string>
+        <string>						Gui.SS_Form1.gsfgLabel.Visible(true)</string>
+        <string>						Gui.SS_Form1..Enabled(True)</string>
+        <string>						F.Intrinsic.Control.ExitSub</string>
+        <string>					F.Intrinsic.Control.EndIf</string>
+        <string>					F.Intrinsic.Math.Add(V.Local.sRet.UBound,1,V.Local.iRemRow)</string>
+        <string>					F.Intrinsic.Math.Add(V.Local.i,1,V.Local.iCurrRow)</string>
+        <string>					F.Intrinsic.Math.Sub(V.Local.iRemRow,V.Local.iCurrRow,V.Local.iRemRow)</string>
+        <string>					F.Intrinsic.Control.If(V.Local.iRemRow,=,0)</string>
+        <string>						Gui.SS_Form1.gsfgLabel.LoadFromUDT("uGlobal.uLabel","ID*!*Group*!*Part*!*Loc*!*Job*!*Suffix*!*Lot*!*Heat*!*Serial*!*Qty*!*QtyL",2)</string>
+        <string>						F.Intrinsic.UI.Msgbox("Quantity on labels less than part quantity.","")</string>
+        <string>						Gui.SS_Form1.gsfgLabel.Visible(true)</string>
+        <string>						Gui.SS_Form1..Enabled(True)</string>
+        <string>						F.Intrinsic.Control.ExitSub</string>
+        <string>					F.Intrinsic.Control.EndIf</string>
+        <string>					F.Intrinsic.Variable.UDTSeek(V.uGlobal.uLabel!ID,V.Local.sRow(0).Long,0,V.Local.sRetID)</string>
+        <string>					F.Intrinsic.Control.If(V.Local.sRetID,&lt;&gt;,"")</string>
+        <string>						V.uGlobal.uLabel(V.Local.sRetID.Long)!Job.Set(V.Local.sRow(4))</string>
+        <string>						V.uGlobal.uLabel(V.Local.sRetID.Long)!Suffix.Set(V.Local.sRow(5))</string>
+        <string>						V.uGlobal.uLabel(V.Local.sRetID.Long)!Lot.Set(V.Local.sRow(6))</string>
+        <string>						V.uGlobal.uLabel(V.Local.sRetID.Long)!Heat.Set(V.Local.sRow(7))</string>
+        <string>						V.uGlobal.uLabel(V.Local.sRetID.Long)!Serial.Set(V.Local.sRow(8))</string>
+        <string>						V.uGlobal.uLabel(V.Local.sRetID.Long)!QtyL.Set(V.Local.sRow(10))</string>
+        <string>					F.Intrinsic.Control.EndIf</string>
+        <string>					F.Intrinsic.Math.Add(V.Local.sRet.UBound,1,V.Local.iRemRow)</string>
+        <string>					F.Intrinsic.Math.Add(V.Local.i,1,V.Local.iCurrRow)</string>
+        <string>					F.Intrinsic.Math.Sub(V.Local.iRemRow,V.Local.iCurrRow,V.Local.iRemRow)</string>
+        <string>					F.Intrinsic.Math.Sub(V.uGlobal.uLabel(V.Local.sRetID.Long)!Qty,V.Local.fTotal.Float,V.Local.fQtyL)</string>
+        <string>					F.Intrinsic.Control.If(V.Local.fQtyL,=,0)</string>
+        <string>						V.Local.fQtyL.Set(0)</string>
+        <string>					F.Intrinsic.Control.Else</string>
+        <string>						F.Intrinsic.Math.Div(V.Local.fQtyL,V.Local.iRemRow,V.Local.fQtyL)</string>
+        <string>						F.Intrinsic.Math.Round(V.Local.fQtyL,2,V.Local.fQtyL)</string>
+        <string>					F.Intrinsic.Control.EndIf</string>
+        <string>					V.Local.ia.Set(1)</string>
+        <string>					F.Intrinsic.Control.DoUntil(V.Local.ia,&gt;,V.Local.iRemRow)</string>
+        <string>						F.Intrinsic.Math.Add(V.Local.i,1,V.Local.i)</string>
+        <string>						V.uGlobal.uLabel(V.Local.sRet(V.Local.i).Long)!QtyL.Set(V.Local.fQtyL)</string>
+        <string>						F.Intrinsic.Math.Add(V.Local.ia,1,V.Local.ia)</string>
+        <string>					F.Intrinsic.Control.Loop</string>
+        <string>					Gui.SS_Form1.gsfgLabel.LoadFromUDT("uGlobal.uLabel","ID*!*Group*!*Part*!*Loc*!*Job*!*Suffix*!*Lot*!*Heat*!*Serial*!*Qty*!*QtyL",2)</string>
+        <string>					Gui.SS_Form1.gsfgLabel.Visible(true)</string>
+        <string>					Gui.SS_Form1..Enabled(True)</string>
+        <string>					F.Intrinsic.Control.ExitSub</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					F.Intrinsic.Math.Add(V.Local.fTotal,V.uGlobal.uLabel(V.Local.sRet(V.Local.i).Long)!QtyL,V.Local.fTotal)</string>
+        <string>					F.Intrinsic.Control.If(V.Local.fTotal,&gt;,V.uGlobal.uLabel(V.Local.sRet(V.Local.i).Long)!Qty)</string>
+        <string>						Gui.SS_Form1.gsfgLabel.LoadFromUDT("uGlobal.uLabel","ID*!*Group*!*Part*!*Loc*!*Job*!*Suffix*!*Lot*!*Heat*!*Serial*!*Qty*!*QtyL",2)</string>
+        <string>						F.Intrinsic.UI.Msgbox("Quantity on labels greater than part quantity.","")</string>
+        <string>						Gui.SS_Form1.gsfgLabel.Visible(true)</string>
+        <string>						Gui.SS_Form1..Enabled(True)</string>
+        <string>						F.Intrinsic.Control.ExitSub</string>
+        <string>					F.Intrinsic.Control.EndIf</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.SS_Form1.gsfgLabel.LoadFromUDT("uGlobal.uLabel","ID*!*Group*!*Part*!*Loc*!*Job*!*Suffix*!*Lot*!*Heat*!*Serial*!*Qty*!*QtyL",2)</string>
+        <string>		F.Intrinsic.UI.Msgbox("Value must be numeric.","")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	Gui.SS_Form1.gsfgLabel.Visible(true)</string>
+        <string>	Gui.SS_Form1..Enabled(True)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	Gui.SS_Form1.gsfgLabel.ReadRow(V.Args.Key,V.Local.sRow)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRow,"*!*",V.Local.sRow)</string>
+        <string>	F.Intrinsic.Variable.UDTSeek(V.uGlobal.uLabel!ID,V.Local.sRow(0).Long,0,V.Local.sRetID)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sRetID,&lt;&gt;,"")</string>
+        <string>		V.uGlobal.uLabel(V.Local.sRetID.Long)!Job.Set(V.Local.sRow(4))</string>
+        <string>		V.uGlobal.uLabel(V.Local.sRetID.Long)!Suffix.Set(V.Local.sRow(5))</string>
+        <string>		V.uGlobal.uLabel(V.Local.sRetID.Long)!Lot.Set(V.Local.sRow(6))</string>
+        <string>		V.uGlobal.uLabel(V.Local.sRetID.Long)!Heat.Set(V.Local.sRow(7))</string>
+        <string>		V.uGlobal.uLabel(V.Local.sRetID.Long)!Serial.Set(V.Local.sRow(8))</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	Gui.SS_Form1.gsfgLabel.Visible(true)</string>
+        <string>	Gui.SS_Form1..Enabled(True)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("gsfglabel_posttextmatrix_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Program.Sub.gsfglabel_posttextmatrix.End</string>
+        <string />
+        <string>Program.Sub.Reprint.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Reprint_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sParam.Declare(String)</string>
+        <string>V.Local.sParamVal.Declare(String)</string>
+        <string>V.Local.iBI.Declare(Long)</string>
+        <string>V.Local.iRet.Declare(Long)</string>
+        <string />
+        <string />
+        <string>'F.Intrinsic.Debug.InvokeDebugger</string>
+        <string />
+        <string />
+        <string>V.Local.sParam.Set("Terminal")</string>
+        <string>V.Local.sParamVal.Set(V.Caller.Terminal)</string>
+        <string>'	F.Global.BI.GetIDFromName("RESTOCK LABEL-MANUAL_PAC.btw",V.Local.iBI)</string>
+        <string>'F.Intrinsic.String.Concat(V.Caller.BusintDir,"\Custom\gui_inventory_label_emi.btw",V.global.srptLoc)</string>
+        <string>'F.Intrinsic.Control.If(V.Screen.SS_Form1!optStandardLabel.Value,=,True)</string>
+        <string>	F.Intrinsic.String.Concat(V.Caller.BusintDir,"\Labels\Standard_Label_Lot.btw",V.global.srptLoc)</string>
+        <string>	F.Global.BI.InitializeReport("REPRINT INVENTORY LABEL FROM GUI",V.global.srptLoc,V.Local.iBI)</string>
+        <string>'F.Intrinsic.Control.Else</string>
+        <string>'	F.Intrinsic.String.Concat(V.Caller.BusintDir,"\Labels\Standard_Label_lot_wo.btw",V.global.srptLoc)</string>
+        <string>'	F.Global.BI.InitializeReport("REPRINT WO-LOT LABEL",V.global.srptLoc,V.Local.iBI)</string>
+        <string>'F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Global.BI.PrintBartenderLabel(V.Local.iBI,3,V.Local.sParam,V.Local.sParamVal,False,"",0)</string>
+        <string />
+        <string>F.Intrinsic.UI.Msgbox("Did the labels print correctly?","Reprint",4,V.Local.iRet)</string>
+        <string>F.Intrinsic.Control.If(V.Local.iRet,=,7)</string>
+        <string>	F.Intrinsic.Control.CallSub(Reprint)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Gridclear)</string>
+        <string>	F.Intrinsic.Control.CallSub(Cmdclear_click)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Reprint_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Reprint.End</string>
+        <string />
+        <string>Program.Sub.GridClear.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GridClear_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>V.uGlobal.uLabel.Redim(-1,-1)</string>
+        <string>Gui.SS_Form1.gsfgLabel.Visible(false)</string>
+        <string>Gui.SS_Form1.gsfgLabel.Rows(1)</string>
+        <string>F.Intrinsic.Control.CallSub(Gridtitle)</string>
+        <string>Gui.SS_Form1.gsfgLabel.Visible(true)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GridClear_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4277_CSS_Manual_Inv_Label.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.GridClear.End</string>
+        <string />
+        <string>Program.Sub.txtpart_keypressenter.Start</string>
+        <string>Program.Sub.txtpart_keypressenter.End</string>
+        <string />
+        <string>Program.Sub.txtjs_keypressenter.Start</string>
+        <string>V.Local.sJobSuffix.Declare(String)</string>
+        <string>V.Local.sJob.Declare(String)</string>
+        <string>V.Local.sSuffix.Declare(String)</string>
+        <string>V.Local.sSeq.Declare(String)</string>
+        <string>V.Local.sPrefix.Declare(String)</string>
+        <string>V.Local.iCount.Declare(Long)</string>
+        <string>V.Local.sLine.Declare(String)</string>
+        <string />
+        <string>V.Local.sJobSuffix.Set(V.Screen.SS_Form1!txtJS.Text)</string>
+        <string>F.Intrinsic.String.Left(V.Local.sJobSuffix,2,V.Local.sPrefix)</string>
+        <string>F.Intrinsic.Control.If(V.Local.sPrefix,=,"%/")</string>
+        <string>	F.Intrinsic.String.Mid(V.Local.sJobSuffix,3,6,V.Local.sJob)</string>
+        <string>	F.Intrinsic.String.Mid(V.Local.sJobSuffix,9,3,V.Local.sSuffix)</string>
+        <string>	F.Intrinsic.String.Mid(V.Local.sJobSuffix,12,6,V.Local.sSeq)</string>
+        <string>F.Intrinsic.Control.ElseIf(V.Local.sPrefix,=,"$%")</string>
+        <string>	F.Intrinsic.String.Mid(V.Local.sJobSuffix,3,6,V.Local.sJob)</string>
+        <string>	F.Intrinsic.String.Mid(V.Local.sJobSuffix,9,3,V.Local.sSuffix)</string>
+        <string>	F.Intrinsic.String.Mid(V.Local.sJobSuffix,12,6,V.Local.sSeq)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.String.Left(V.Local.sJobSuffix,6,V.Local.sJob)</string>
+        <string>	F.Intrinsic.String.Mid(V.Local.sJobSuffix,7,3,V.Local.sSuffix)</string>
+        <string>	F.Intrinsic.String.Mid(V.Local.sJobSuffix,10,6,V.Local.sSeq)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>Gui.SS_Form1.txtJS.Text(V.Local.sJob)</string>
+        <string>Gui.SS_Form1.txtSuffix.Text(V.Local.sSuffix)</string>
+        <string>F.Intrinsic.Control.CallSub(Subfindwo)</string>
+        <string />
+        <string />
+        <string />
+        <string />
+        <string />
+        <string />
+        <string>Program.Sub.txtjs_keypressenter.End</string>
+        <string />
+        <string>Program.Sub.txtlot_keypressenter.Start</string>
+        <string>V.Local.sLot.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!txtLot.Text,&lt;&gt;,"")</string>
+        <string>	F.Intrinsic.String.LPad(V.Screen.SS_Form1!txtLot.Text,"0",9,V.Local.sLot)</string>
+        <string>	Gui.SS_Form1.txtLot.Text(V.Local.sLot)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.CallSub(Subverifylot)</string>
+        <string>F.Intrinsic.Control.If(V.Global.bLot,=,False)</string>
+        <string>	F.Intrinsic.Control.CallSub(Subenabled)</string>
+        <string>	Gui.SS_Form1.cmdPrintWO.Enabled(true)</string>
+        <string>	Gui.SS_Form1.cmdAdd.Enabled(true)</string>
+        <string>	Gui.SS_Form1.txtQty.SelectAll</string>
+        <string>	Gui.SS_Form1.txtQty.SetFocus</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Subdisabled)</string>
+        <string>	Gui.SS_Form1.cmdAdd.Enabled(false)</string>
+        <string>	Gui.SS_Form1.cmdPrintWO.Enabled(false)</string>
+        <string>	Gui.SS_Form1.txtLot.SelectAll</string>
+        <string>	Gui.SS_Form1.txtLot.SetFocus</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Program.Sub.txtlot_keypressenter.End</string>
+        <string />
+        <string>Program.Sub.optjs_click.Start</string>
+        <string>Gui.SS_Form1.txtPart.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtLoc.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmd_txtPart.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmd_txtLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.cmdNextLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtJS.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtSuffix.Enabled(true)</string>
+        <string>Gui.SS_Form1.cmd_txtJS.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtJS.SelectAll</string>
+        <string>Gui.SS_Form1.txtJS.SetFocus</string>
+        <string />
+        <string>Program.Sub.optjs_click.End</string>
+        <string />
+        <string>Program.Sub.optlot_click.Start</string>
+        <string>Gui.SS_Form1.txtPart.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtLoc.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmd_txtPart.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtJS.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtSuffix.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmd_txtJS.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmd_txtLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.cmdNextLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtLot.SelectAll</string>
+        <string>Gui.SS_Form1.txtLot.SetFocus</string>
+        <string />
+        <string>Program.Sub.optlot_click.End</string>
+        <string />
+        <string>Program.Sub.optpart_click.Start</string>
+        <string>Gui.SS_Form1.txtPart.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtLoc.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmd_txtPart.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtJS.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtSuffix.Enabled(true)</string>
+        <string>Gui.SS_Form1.cmd_txtJS.Enabled(true)</string>
+        <string>Gui.SS_Form1.cmd_txtLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.cmdNextLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtPart.SelectAll</string>
+        <string>Gui.SS_Form1.txtPart.SetFocus</string>
+        <string />
+        <string>Program.Sub.optpart_click.End</string>
+        <string />
+        <string>Program.Sub.cmdnextlot_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdnextlot_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>V.Local.sophdrlot.Declare(String)</string>
+        <string>V.Local.slastLot.Declare(String)</string>
+        <string>V.Local.scounter.Declare(String)</string>
+        <string>V.Local.sDate.Declare(String)</string>
+        <string>V.Local.sTime.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sParamNames.Declare(String)</string>
+        <string>V.Local.sParamTypes.Declare(String)</string>
+        <string>V.Local.sParamSizes.Declare(String)</string>
+        <string>V.Local.sParamValues.Declare(String)</string>
+        <string>V.Local.sParamDir.Declare(String)</string>
+        <string>V.Local.scounter.Set(1)</string>
+        <string>v.Local.iophdrlot.Declare(long)</string>
+        <string>v.Local.ddate.Declare(date)</string>
+        <string>v.Local.snow.Declare(String)</string>
+        <string>Gui.SS_Form1.cmdNextLot.Enabled(false)</string>
+        <string>v.Local.slot.Declare(string)</string>
+        <string>v.Local.ilot.Declare(long)</string>
+        <string>v.Local.ilong.Declare(long)</string>
+        <string>v.Local.slastlotsql.Declare(string)</string>
+        <string>gui.SS_Form1.txtLot.Text("")</string>
+        <string />
+        <string>'select the last ID from the standard table based on ID and sequence</string>
+        <string>f.Intrinsic.String.Build("Select TOP 1 F_LONG, ID, DATE_LAST_CHG, TIME_LAST_CHG, SEQUENCE from OP_HEADER where ID = '{0}' AND SEQUENCE = '{1}'","401895","0002",v.Local.slastlotsql)</string>
+        <string>F.ODBC.Connection!con.OpenLocalRecordsetRW("rstlastlot",V.Local.slastlotsql)</string>
+        <string>'if one is found add to it using the F_LONG</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Con!rstlastlot.EOF,=,False)</string>
+        <string>	v.Local.ilong.Set(v.ODBC.con!rstlastlot.FieldVal!F_LONG)</string>
+        <string>	v.Local.slot.Set(v.Local.ilot.++)</string>
+        <string>	F.ODBC.con!rstlastlot.Set!F_LONG(v.Local.slot)</string>
+        <string>	f.ODBC.con!rstlastlot.Update</string>
+        <string>	'set the lot on the form</string>
+        <string>	f.Intrinsic.String.LPad(v.Local.slot,"0",9,v.Local.slot)</string>
+        <string>	gui.SS_Form1.txtLot.text(v.Local.slot)</string>
+        <string>f.Intrinsic.Control.Else</string>
+        <string>	f.ODBC.con!rstlastlot.AddNew</string>
+        <string>	'set teh field as 0's and text field</string>
+        <string>	F.ODBC.con!rstlastlot.Set!F_LONG("000000000")</string>
+        <string>	f.ODBC.con!rstlastlot.Set!ID("401895")</string>
+        <string>	f.ODBC.con!rstlastlot.Set!SEQUENCE("0002")</string>
+        <string>	f.ODBC.con!rstlastlot.Update</string>
+        <string>	'set the lot on the form</string>
+        <string>	gui.SS_Form1.txtLot.text("000000000")</string>
+        <string>f.Intrinsic.Control.EndIf</string>
+        <string>'close the last lot recordset</string>
+        <string>f.ODBC.con!rstlastlot.Close</string>
+        <string />
+        <string>''update the custom table, may no longer need since OP_HEADER is being updated directly</string>
+        <string>'f.Intrinsic.String.Build("UPDATE GCG_4277_CSS_MANUAL SET LOT_ID = '{0}'",v.Local.slot.trim,v.Local.sSql)</string>
+        <string>'f.ODBC.Connection!con.Execute(v.Local.sSql)</string>
+        <string />
+        <string>F.Intrinsic.Control.CallSub(Subenabled)</string>
+        <string />
+        <string>'no longer need to call this subroutine</string>
+        <string>'F.Intrinsic.Control.CallSub(Subfindduplicate)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdnextlot_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: CSS_Manual_Inv_Label_V2.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	Gui.SS_Form1.cmdNextLot.Enabled(true)</string>
+        <string>	Gui.SS_Form1.cmdNextLot.SetFocus</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdnextlot_click.End</string>
+        <string />
+        <string>Program.Sub.subFindWO.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("subFindWO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string>'F.Intrinsic.Debug.InvokeDebugger</string>
+        <string />
+        <string />
+        <string />
+        <string>F.Intrinsic.String.Build("SELECT JOB, SUFFIX, PART, LOCATION, CUSTOMER, PRODUCT_LINE FROM V_JOB_HEADER WHERE JOB='{0}' AND SUFFIX='{1}'",V.Screen.SS_Form1!txtJS.Text,V.Screen.SS_Form1!txtSuffix.Text,V.Local.sSql)</string>
+        <string>F.ODBC.Connection!con.OpenRecordsetRO("rstJob",V.local.sSql)</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstJob.EOF,"=",False)</string>
+        <string>	Gui.SS_Form1.txtPart.Text(V.ODBC.con!rstJob.FieldValTrim!PART)</string>
+        <string>	Gui.SS_Form1.txtLoc.Text(V.ODBC.con!rstJob.FieldValTrim!LOCATION)</string>
+        <string>	Gui.SS_Form1.txtPL.Text(V.ODBC.con!rstJob.FieldValTrim!PRODUCT_LINE)</string>
+        <string>	Gui.SS_Form1.txtCustomer.Text(V.ODBC.con!rstJob.FieldValTrim!CUSTOMER)</string>
+        <string>	F.ODBC.con!rstJob.Close</string>
+        <string>	Gui.SS_Form1.cmdClear.Enabled(true)</string>
+        <string>'	Gui.SS_Form1.cmdPrintWO.Enabled(true)</string>
+        <string>'	Gui.SS_Form1.cmdAdd.Enabled(true)</string>
+        <string>'	F.Intrinsic.Control.CallSub(Subenabled)</string>
+        <string>	Gui.SS_Form1.txtJS.Enabled(false)</string>
+        <string>	F.Intrinsic.Control.If(V.Caller.Switches,=,"R","OR",V.Caller.Hook,=,1)</string>
+        <string>		Gui.SS_Form1.txtLot.Enabled(true)</string>
+        <string>		Gui.SS_Form1.cmdNextLot.Enabled(false)</string>
+        <string>		Gui.SS_Form1.txtLot.SelectAll</string>
+        <string>		Gui.SS_Form1.txtLot.SetFocus</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.SS_Form1.txtLot.Enabled(false)</string>
+        <string>		Gui.SS_Form1.cmdNextLot.Enabled(true)</string>
+        <string>		Gui.SS_Form1.cmdNextLot.SetFocus</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.ODBC.con!rstJob.Close</string>
+        <string>	F.Intrinsic.String.Build("SELECT JOB, SUFFIX, PART, LOCATION, CUSTOMER, PRODUCT_LINE FROM V_JOB_HIST_MAST WHERE JOB='{0}' AND SUFFIX='{1}'",V.Screen.SS_Form1!txtJS.Text,V.Screen.SS_Form1!txtSuffix.Text,V.Local.sSql)</string>
+        <string>	F.ODBC.Connection!con.OpenRecordsetRO("rstJobHist",V.local.sSql)</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.con!rstJobHist.EOF,"=",False)</string>
+        <string>		Gui.SS_Form1.txtPart.Text(V.ODBC.con!rstJobHist.FieldValTrim!PART)</string>
+        <string>		Gui.SS_Form1.txtLoc.Text(V.ODBC.con!rstJobHist.FieldValTrim!LOCATION)</string>
+        <string>		Gui.SS_Form1.txtPL.Text(V.ODBC.con!rstJobHist.FieldValTrim!PRODUCT_LINE)</string>
+        <string>		Gui.SS_Form1.txtCustomer.Text(V.ODBC.con!rstJobHist.FieldValTrim!CUSTOMER)</string>
+        <string>		Gui.SS_Form1.cmdClear.Enabled(true)</string>
+        <string>'		Gui.SS_Form1.cmdPrintWO.Enabled(true)</string>
+        <string>'		Gui.SS_Form1.cmdAdd.Enabled(true)</string>
+        <string>'		F.Intrinsic.Control.CallSub(Subenabled)</string>
+        <string>		Gui.SS_Form1.txtJS.Enabled(false)</string>
+        <string>		F.Intrinsic.Control.If(V.Caller.Switches,=,"R","OR",V.Caller.Hook,=,1)</string>
+        <string>			Gui.SS_Form1.txtLot.Enabled(true)</string>
+        <string>			Gui.SS_Form1.cmdNextLot.Enabled(false)</string>
+        <string>			Gui.SS_Form1.txtLot.SelectAll</string>
+        <string>			Gui.SS_Form1.txtLot.SetFocus</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.SS_Form1.txtLot.Enabled(false)</string>
+        <string>			Gui.SS_Form1.cmdNextLot.Enabled(true)</string>
+        <string>			Gui.SS_Form1.cmdNextLot.SetFocus</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.UI.Msgbox("No Work Order Found!")</string>
+        <string>		Gui.SS_Form1.cmdPrintWO.Enabled(false)</string>
+        <string>		Gui.SS_Form1.cmdClear.Enabled(false)</string>
+        <string>		Gui.SS_Form1.cmdAdd.Enabled(false)</string>
+        <string>		F.Intrinsic.Control.CallSub(Subdisabled)</string>
+        <string>		Gui.SS_Form1.txtLot.Enabled(false)</string>
+        <string>		Gui.SS_Form1.txtJS.Enabled(true)</string>
+        <string>		Gui.SS_Form1.txtSuffix.Text("")</string>
+        <string>		Gui.SS_Form1.txtJS.SelectAll</string>
+        <string>		Gui.SS_Form1.txtJS.SetFocus</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.ODBC.con!rstJobHist.Close</string>
+        <string>F.Intrinsic.Control.Endif</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("subFindWO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: CSS_Manual_Inv_Label_V2.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.subFindWO.End</string>
+        <string />
+        <string>Program.Sub.cmdprintwo_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdprintwo_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!txtLot.Text,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Please enter the Lot number","Warning")</string>
+        <string>	F.Intrinsic.Control.If(V.Caller.Switches,=,"R")</string>
+        <string>		Gui.SS_Form1.txtLot.SelectAll</string>
+        <string>		Gui.SS_Form1.txtLot.SetFocus</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		Gui.SS_Form1.cmdNextLot.SetFocus</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>Gui.SS_Form1.cmdPrintWO.Enabled(false)</string>
+        <string>'F.Intrinsic.Control.If(V.uGlobal.uLabel.UBound,&gt;,-1)</string>
+        <string />
+        <string>	'F.Intrinsic.String.Concat("DELETE CPP_Manual_Inv_Label where Terminal = '",V.Caller.Terminal,"'",V.Local.sSql)</string>
+        <string>	F.Intrinsic.String.Build("DELETE from X_MANUAL_INV_LABEL WHERE TERMINAL='{0}'",V.Caller.Terminal,V.Local.sSql)</string>
+        <string />
+        <string>	F.ODBC.Connection!con.Execute(V.Local.sSql)</string>
+        <string>'	V.Local.sSql.Set("Select * from X_MANUAL_INV_LABEL")</string>
+        <string>	F.Intrinsic.String.Build("SELECT * FROM X_MANUAL_INV_LABEL WHERE TERMINAL='{0}'",V.Caller.Terminal,V.Local.sSql)</string>
+        <string>	F.ODBC.Connection!con.OpenLocalRecordsetRW("rst",V.Local.sSql)</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.con!rst.EOF,"=",True)</string>
+        <string>		F.ODBC.con!rst.AddNew</string>
+        <string />
+        <string>		F.ODBC.con!rst.Set!Terminal(V.Caller.Terminal)</string>
+        <string>		F.ODBC.con!rst.Set!ID(1)</string>
+        <string>		F.ODBC.con!rst.Set!GID(1)</string>
+        <string>		F.ODBC.con!rst.Set!Part(V.Screen.SS_Form1!txtPart.Text)</string>
+        <string>		F.Intrinsic.String.Concat("Select DESCRIPTION, UM_INVENTORY from V_INVENTORY_MSTR where PART = '",V.Screen.SS_Form1!txtPart.Text,"' and  LOCATION =  '",V.Screen.SS_Form1!txtLoc.Text,"'",V.Local.sSql)</string>
+        <string>		F.ODBC.Connection!con.OpenLocalRecordsetRO("rstDesc",V.Local.sSql)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rstDesc.EOF,=,True)</string>
+        <string>			F.ODBC.con!rst.Set!Description("")</string>
+        <string>			F.ODBC.con!rst.Set!UM("")</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.ODBC.con!rst.Set!Description(V.ODBC.con!rstDesc.FieldValTrim!DESCRIPTION)</string>
+        <string>			F.ODBC.con!rst.Set!UM(V.ODBC.con!rstDesc.FieldValTrim!UM_INVENTORY)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstDesc.Close</string>
+        <string>		F.ODBC.con!rst.Set!Location(V.Screen.SS_Form1!txtLoc.Text)</string>
+        <string>		F.ODBC.con!rst.Set!Lot(V.Screen.SS_Form1!txtLot.Text)</string>
+        <string>		F.ODBC.con!rst.Set!Heat(V.Screen.SS_Form1!txtheat.Text)</string>
+        <string>		F.ODBC.con!rst.Set!Serial(V.Screen.SS_Form1!txtserial.Text)</string>
+        <string>		F.ODBC.con!rst.Set!Job(V.Screen.SS_Form1!txtJS.Text)</string>
+        <string>		F.ODBC.con!rst.Set!Suffix(V.Screen.SS_Form1!txtSuffix.Text)</string>
+        <string>		F.ODBC.con!rst.Set!Quantity(1)</string>
+        <string>		F.ODBC.con!rst.Set!Quantity_Label(1)</string>
+        <string>		F.ODBC.con!rst.Set!GS_User(V.Caller.User)</string>
+        <string>		F.Intrinsic.Control.If(V.Caller.Switches,=,"R","OR",V.Caller.Hook,=,1)</string>
+        <string>			F.ODBC.con!rst.Set!RPT(1)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.ODBC.con!rst.Set!RPT(0)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>	F.Intrinsic.Control.Endif</string>
+        <string>	F.ODBC.con!rst.Update</string>
+        <string>	F.ODBC.con!rst.Close</string>
+        <string>	F.Intrinsic.Control.CallSub(Reprintwo)</string>
+        <string />
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdprintwo_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: CSS_Manual_Inv_Label_V2.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdprintwo_click.End</string>
+        <string />
+        <string>Program.Sub.txtheat_keypressenter.Start</string>
+        <string>Gui.SS_Form1.txtserial.SelectAll</string>
+        <string>Gui.SS_Form1.txtserial.SetFocus</string>
+        <string />
+        <string>Program.Sub.txtheat_keypressenter.End</string>
+        <string />
+        <string>Program.Sub.txtserial_keypressenter.Start</string>
+        <string>Gui.SS_Form1.txtQty.SelectAll</string>
+        <string>Gui.SS_Form1.txtQty.SetFocus</string>
+        <string />
+        <string>Program.Sub.txtserial_keypressenter.End</string>
+        <string />
+        <string>Program.Sub.txtqty_keypressenter.Start</string>
+        <string>Gui.SS_Form1.txtQtyL.SelectAll</string>
+        <string>Gui.SS_Form1.txtQtyL.SetFocus</string>
+        <string />
+        <string>Program.Sub.txtqty_keypressenter.End</string>
+        <string />
+        <string>Program.Sub.txtqtyl_keypressenter.Start</string>
+        <string>Gui.SS_Form1.cmdAdd.SetFocus</string>
+        <string />
+        <string>Program.Sub.txtqtyl_keypressenter.End</string>
+        <string />
+        <string>Program.Sub.cmdclear_click.Start</string>
+        <string>Gui.SS_Form1.cmdClear.Enabled(false)</string>
+        <string>Gui.SS_Form1..ClearGroup(1)</string>
+        <string>F.Intrinsic.Control.CallSub(Gridclear)</string>
+        <string>Gui.SS_Form1.txtLot.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmdPrint.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmdPrintWO.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmdAdd.Enabled(false)</string>
+        <string>Gui.SS_Form1.cmdNextLot.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtJS.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtJS.SetFocus</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdclear_click.End</string>
+        <string />
+        <string>Program.Sub.subDisabled.Start</string>
+        <string>Gui.SS_Form1.txtheat.Enabled(false)</string>
+        <string>'Gui.SS_Form1.txtLot.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtserial.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtQty.Enabled(false)</string>
+        <string>Gui.SS_Form1.txtQtyL.Enabled(false)</string>
+        <string />
+        <string>Program.Sub.subDisabled.End</string>
+        <string />
+        <string>Program.Sub.subEnabled.Start</string>
+        <string>Gui.SS_Form1.txtheat.Enabled(true)</string>
+        <string>'Gui.SS_Form1.txtLot.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtserial.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtQty.Enabled(true)</string>
+        <string>Gui.SS_Form1.txtQtyL.Enabled(true)</string>
+        <string />
+        <string>Program.Sub.subEnabled.End</string>
+        <string />
+        <string>Program.Sub.ReprintWO.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("ReprintWO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sParam.Declare(String)</string>
+        <string>V.Local.sParamVal.Declare(String)</string>
+        <string>V.Local.iBI.Declare(Long)</string>
+        <string>V.Local.iRet.Declare(Long)</string>
+        <string>'V.global.srptLoc.Declare(String)</string>
+        <string>'F.Intrinsic.Debug.InvokeDebugger</string>
+        <string />
+        <string />
+        <string>V.Local.sParam.Set("Terminal")</string>
+        <string>V.Local.sParamVal.Set(V.Caller.Terminal)</string>
+        <string>'	F.Global.BI.GetIDFromName("RESTOCK LABEL-MANUAL_PAC.btw",V.Local.iBI)</string>
+        <string>'F.Intrinsic.String.Concat(V.Caller.BusintDir,"\Custom\gui_inventory_label_emi.btw",V.global.srptLoc)</string>
+        <string>'F.Intrinsic.Control.If(V.Screen.SS_Form1!optStandardLabel.Value,=,True)</string>
+        <string />
+        <string>'F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.String.Concat(V.Caller.BusintDir,"\Labels\Standard_Label_lot_wo.btw",V.global.srptLoc)</string>
+        <string>	F.Global.BI.InitializeReport("REPRINT WO-LOT LABEL",V.global.srptLoc,V.Local.iBI)</string>
+        <string>'F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Global.BI.PrintBartenderLabel(V.Local.iBI,3,V.Local.sParam,V.Local.sParamVal,False,"",0)</string>
+        <string />
+        <string>F.Intrinsic.UI.Msgbox("Did the labels print correctly?","Reprint",4,V.Local.iRet)</string>
+        <string>F.Intrinsic.Control.If(V.Local.iRet,=,7)</string>
+        <string>	F.Intrinsic.Control.CallSub(Reprintwo)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>'	F.Intrinsic.Control.CallSub(Gridclear)</string>
+        <string>	Gui.SS_Form1.cmdPrintWO.Enabled(true)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("ReprintWO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: CSS_Manual_Inv_Label_V2.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.ReprintWO.End</string>
+        <string />
+        <string>Program.Sub.subFindDuplicate.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("subFindDuplicate_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.String.Build("SELECT TOP 1 PART, LOT FROM V_ITEM_HISTORY WHERE LOT='{0}'",V.Screen.SS_Form1!txtLot.Text,V.Local.sSql)</string>
+        <string>F.ODBC.Connection!con.OpenRecordsetRO("rstLot",V.local.sSql)</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstLot.EOF,"=",False)</string>
+        <string>	F.Intrinsic.UI.Msgbox("This lot is already in use, please try again","Warning")</string>
+        <string>	Gui.SS_Form1.txtLot.Text("")</string>
+        <string>	Gui.SS_Form1.cmdNextLot.Enabled(true)</string>
+        <string>	Gui.SS_Form1.cmdNextLot.SetFocus</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Subenabled)</string>
+        <string>	Gui.SS_Form1.cmdPrintWO.Enabled(true)</string>
+        <string>	Gui.SS_Form1.cmdAdd.Enabled(true)</string>
+        <string>	Gui.SS_Form1.txtQty.SelectAll</string>
+        <string>	Gui.SS_Form1.txtQty.SetFocus</string>
+        <string>F.Intrinsic.Control.Endif</string>
+        <string />
+        <string>'F.ODBC.con!rstLot.Set!nonkeyfield("Value")</string>
+        <string>F.ODBC.con!rstLot.Close</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("subFindDuplicate_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: CSS_Manual_Inv_Label_V2.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.subFindDuplicate.End</string>
+        <string />
+        <string>Program.Sub.subVerifyLot.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("subVerifyLot_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sPart.Declare(String)</string>
+        <string>V.Local.sMsg.Declare(String)</string>
+        <string>V.Local.sLot.Declare(String)</string>
+        <string />
+        <string>V.Local.sPart.Set(V.Screen.SS_Form1!txtPart.Text)</string>
+        <string>V.Local.sLot.Set(V.Screen.SS_Form1!txtLot.Text)</string>
+        <string>V.Global.bLot.Set(False)</string>
+        <string>F.Intrinsic.UI.InvokeWaitDialog("Please wait... Checking the Lot","Information")</string>
+        <string>F.Intrinsic.String.Build("SELECT TOP 1 PART, LOT FROM V_ITEM_HISTORY WHERE LOT='{0}'",V.Local.sLot.Trim,V.Local.sSql)</string>
+        <string>F.ODBC.Connection!con.OpenRecordsetRO("rstLot",V.local.sSql)</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.con!rstLot.EOF,"=",False)</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.con!rstLot.FieldValTrim!PART,&lt;&gt;,V.Local.sPart.Trim)</string>
+        <string>		F.Intrinsic.String.Build("This lot corresponds to the part number: {0}  Please check the entered lot, because this lot can not be used for this work order {1}{2} If the problem persists please call your supervisor",V.ODBC.con!rstLot.FieldValTrim!PART,V.Ambient.NewLine,V.Ambient.NewLine,V.Local.sMsg)</string>
+        <string>		F.Intrinsic.UI.Msgbox(V.Local.sMsg,"Warning")</string>
+        <string>		V.Global.bLot.Set(True)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		V.Global.bLot.Set(False)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	V.Global.bLot.Set(False)</string>
+        <string>F.Intrinsic.Control.Endif</string>
+        <string />
+        <string>F.ODBC.con!rstLot.Close</string>
+        <string>F.Intrinsic.UI.CloseWaitDialog</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("subVerifyLot_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: CSS_Manual_Inv_Label_V2.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.subVerifyLot.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$GCG_Manual_Inv_Label$}$MLA$}$2/1/2012$}$False</string>
+        <string>${$3$}$0$}$$}$-1$}$-1$}$$}$1/1/1900$}$Wayne Wire</string>
+        <string>Quote: 2809</string>
+        <string>Program.Sub.Comments.End</string>
+        <string />
+        <string>Program.Sub.ScreenSS.Start</string>
+        <string>SS_Form1{{CAPTION::Manual Inventory Label</string>
+        <string>SS_Form1.CTRL{{NAME::txtPart\\TYPE::2\\CAPTION::Part\\GROUP::1\\BROWSER::1\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::txtLoc\\TYPE::2\\CAPTION::Loc\\GROUP::1\\BROWSER::0\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::txtBin\\TYPE::2\\CAPTION::Bin\\GROUP::1\\BROWSER::0\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::txtLot\\TYPE::2\\CAPTION::Lot\\GROUP::1\\BROWSER::1\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::txtQty\\TYPE::2\\CAPTION::Quantity\\GROUP::1\\BROWSER::0\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::txtQtyL\\TYPE::2\\CAPTION::Label Quantity\\GROUP::1\\BROWSER::0\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::cmdAdd\\TYPE::5\\CAPTION::Add\\GROUP::1\\BROWSER::0\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::cmdPrint\\TYPE::5\\CAPTION::Print\\GROUP::-1\\BROWSER::0\\SIZE::1</string>
+        <string />
+        <string>Program.Sub.ScreenSS.End</string>
+        <string />
+        <string />
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>909</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>253</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>255</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>272</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>274</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>350</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>352</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>356</Y>
+        </EndPoint>
+        <Text>Program.Sub.ss_form1_unload</Text>
+        <DisplayText>Program.Sub.ss_form1_unload</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>358</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>424</Y>
+        </EndPoint>
+        <Text>Program.Sub.GridTitle</Text>
+        <DisplayText>Program.Sub.GridTitle</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>426</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>453</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd_txtpart_click</Text>
+        <DisplayText>Program.Sub.cmd_txtpart_click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>455</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>497</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd_txtlot_click</Text>
+        <DisplayText>Program.Sub.cmd_txtlot_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>499</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>564</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdadd_click</Text>
+        <DisplayText>Program.Sub.cmdadd_click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>566</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>632</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdprint_click</Text>
+        <DisplayText>Program.Sub.cmdprint_click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>634</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>683</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd_txtJS_click</Text>
+        <DisplayText>Program.Sub.cmd_txtJS_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>685</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>736</Y>
+        </EndPoint>
+        <Text>Program.Sub.GridStyle</Text>
+        <DisplayText>Program.Sub.GridStyle</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>738</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>802</Y>
+        </EndPoint>
+        <Text>Program.Sub.OpChk</Text>
+        <DisplayText>Program.Sub.OpChk</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>804</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>833</Y>
+        </EndPoint>
+        <Text>Program.Sub.gsfglabel_commandclick</Text>
+        <DisplayText>Program.Sub.gsfglabel_commandclick</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>835</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>960</Y>
+        </EndPoint>
+        <Text>Program.Sub.gsfglabel_posttextmatrix</Text>
+        <DisplayText>Program.Sub.gsfglabel_posttextmatrix</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>962</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1008</Y>
+        </EndPoint>
+        <Text>Program.Sub.Reprint</Text>
+        <DisplayText>Program.Sub.Reprint</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1010</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1032</Y>
+        </EndPoint>
+        <Text>Program.Sub.GridClear</Text>
+        <DisplayText>Program.Sub.GridClear</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1034</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1035</Y>
+        </EndPoint>
+        <Text>Program.Sub.txtpart_keypressenter</Text>
+        <DisplayText>Program.Sub.txtpart_keypressenter</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1037</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1070</Y>
+        </EndPoint>
+        <Text>Program.Sub.txtjs_keypressenter</Text>
+        <DisplayText>Program.Sub.txtjs_keypressenter</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1072</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1094</Y>
+        </EndPoint>
+        <Text>Program.Sub.txtlot_keypressenter</Text>
+        <DisplayText>Program.Sub.txtlot_keypressenter</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1096</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1109</Y>
+        </EndPoint>
+        <Text>Program.Sub.optjs_click</Text>
+        <DisplayText>Program.Sub.optjs_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1111</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1124</Y>
+        </EndPoint>
+        <Text>Program.Sub.optlot_click</Text>
+        <DisplayText>Program.Sub.optlot_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1126</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1139</Y>
+        </EndPoint>
+        <Text>Program.Sub.optpart_click</Text>
+        <DisplayText>Program.Sub.optpart_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1141</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1214</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdnextlot_click</Text>
+        <DisplayText>Program.Sub.cmdnextlot_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1216</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1299</Y>
+        </EndPoint>
+        <Text>Program.Sub.subFindWO</Text>
+        <DisplayText>Program.Sub.subFindWO</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1301</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1380</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdprintwo_click</Text>
+        <DisplayText>Program.Sub.cmdprintwo_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1382</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1386</Y>
+        </EndPoint>
+        <Text>Program.Sub.txtheat_keypressenter</Text>
+        <DisplayText>Program.Sub.txtheat_keypressenter</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1388</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1392</Y>
+        </EndPoint>
+        <Text>Program.Sub.txtserial_keypressenter</Text>
+        <DisplayText>Program.Sub.txtserial_keypressenter</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1394</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1398</Y>
+        </EndPoint>
+        <Text>Program.Sub.txtqty_keypressenter</Text>
+        <DisplayText>Program.Sub.txtqty_keypressenter</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1400</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1403</Y>
+        </EndPoint>
+        <Text>Program.Sub.txtqtyl_keypressenter</Text>
+        <DisplayText>Program.Sub.txtqtyl_keypressenter</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1405</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1418</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdclear_click</Text>
+        <DisplayText>Program.Sub.cmdclear_click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1420</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1427</Y>
+        </EndPoint>
+        <Text>Program.Sub.subDisabled</Text>
+        <DisplayText>Program.Sub.subDisabled</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1429</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1436</Y>
+        </EndPoint>
+        <Text>Program.Sub.subEnabled</Text>
+        <DisplayText>Program.Sub.subEnabled</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1438</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1482</Y>
+        </EndPoint>
+        <Text>Program.Sub.ReprintWO</Text>
+        <DisplayText>Program.Sub.ReprintWO</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1484</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1518</Y>
+        </EndPoint>
+        <Text>Program.Sub.subFindDuplicate</Text>
+        <DisplayText>Program.Sub.subFindDuplicate</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1520</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1560</Y>
+        </EndPoint>
+        <Text>Program.Sub.subVerifyLot</Text>
+        <DisplayText>Program.Sub.subVerifyLot</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1562</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1566</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1568</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1579</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSS</Text>
+        <DisplayText>Program.Sub.ScreenSS</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
