@@ -1,0 +1,2 @@
+CREATE TABLE "GCG_4277_CSS_Manual"(
+ "LOT_ID" CHAR(15));
